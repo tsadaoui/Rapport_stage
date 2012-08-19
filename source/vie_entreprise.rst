@@ -36,4 +36,12 @@ L'équipe a déjà grandi depuis (deux nouvelles personnes arrivées en aout et 
 Les outils
 ----------
 
-Jira, Facebook
+Le coeur de l'activité de Work4Labs est le recrutement sur les réseaux sociaux et **Facebook** en particulier. Nous utilisons beaucoup les API Facebook dans nos applications, et nous l'utilisons également pour tester les applications que nous développons.
+
+L'outil principal qui organise la vie des équipes technique est **Jira**. Jira gère les tâches, les planning, il sert de bug tracker, de base documentaire, il permet à chaque équipe de tenir un blog détaillant l'avancé du projet, il nous permet de rédiger des documents (rapports, spécifications) collaborativement ... C'est vraiment l'outil central de référence utilisé par toutes les équipes techniques.
+
+**Github** est la plate forme utilisée pour hébergé nos dépot git (qui est un outil de gestion de version), de plus il nous sert de support pour les code reviews (il offre des fonctionnalités pour commenter des parties du code et pour discutter autour d'aspects techniques).
+
+**Testrails** est basiquement un outil de checklist qui nous sert de support dans la validation des tests de certains de projet.
+
+**Asana** est un outil de gestion de tâches. On peut considérer que c'est l'équivalent de Jira pour le personnel non-technique. Je l'ai utilisé essentiellement quand j'ai travaillé avec les ressources humaines (corrections des tests envoyés par les candidats stagiaires, plannification des entretiens, discussion à propos des cantdidats ...).
