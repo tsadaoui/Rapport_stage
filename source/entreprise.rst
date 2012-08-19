@@ -8,7 +8,7 @@ Actuellement la principale plates-forme utilisée est Facebook.
 Marché
 ------
 
-Le marché ciblé est principalement le marché des grosses entreprises américaines.
+Le marché ciblé est principalement le marché des grosses entreprises américaines, d'une part parce que, culturellement, elles sont plus enclines à adopter de nouveaux usages (comme l'est l'utilisation des réseaux sociaux pour appuyer les efforts de recrutement) et d'autre part car elles sont plus nombreuses et de taille plus importantes offrant ainsi plus d'opportunités commerciales.
 
 
 Work4Us
