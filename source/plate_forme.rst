@@ -96,4 +96,18 @@ Tout au long du cycle de vie d'une tâche son status sera amené à être modifi
 Travail effectué
 ----------------
 
-La listes des tâches, problèmes résolus, fonctionnalités ajoutées est très longue. Il serait fastidieux et sans intérêt de la reproduire ici ; mais je vais essayer, dans ce paragraphe, de données une vue d'ensemble de ce qui a été accompli sur job-pipe.
+La listes des tâches, problèmes résolus, fonctionnalités ajoutées est très longue. Il serait fastidieux et sans intérêt de la reproduire ici ; mais je vais essayer, dans ce paragraphe, de donner une vue d'ensemble de ce qui a été accompli sur job-pipe:
+
+* Stabilisation: en débutant mon stage l'une des premières priorité a été de stabiliser le système, c'est à dire de réduire le nombre de bugs à un niveau acceptable pour une mise en production. Les bugs sont inhérent au développement logiciel, il ne s'agit pas de ne plus en avoir mais plutôt de réduire au maximum leur quantité de manière à ce que les erreurs soient gérable et qu'on puisse avoir confiance dans le système.
+
+* Refactorisation: notre mode de fonctionnement agile et itératif rend nécessaire de régulièrement reprendre le code, pour le modifier et améliorer son esthétisme et sa maintenabilité. Une partie du temps des développeurs est investi dans cette activité.
+
+* Monitoring: des erreurs surviennent régulièrement. Certaines sont normales et ne peuvent être évitées (car elles font partie du cycle de vie de l'application, ou sont indépendante de notre volonté) d'autres sont anormales est révèlent la présence de bugs. A partir du moment où les erreurs ne peuvent pas être toutes évitées, l'important est que la personne à même de traiter une erreur soit prévenue quand celle-ci survient. C'est le rôle des mécanismes de monitoring que nous avons implémenté dans Job-pipe. Le monitoring est un composant important qui nous permet d'avoir confiance dans le système.
+
+* Optimisation: certaines opérations sont coûteuses en temps ou en ressource, les optimiser permet d'obtenir un résultat plus rapidement pour un moindre coup. A plusieurs reprises nous avons optimisé des "bottle neck" dans le système.
+
+* Amélioration / Automatisation des process: le développement des imports demandent l'intervention de plusieurs personnes, chacune devant exécuter certaines tâches dans leur domaine de compétences. Certaines tâches sont automatisable, d'autre peuvent être facilitées par l'écriture d'outil, certaines autres peuvent être évitées. L'amélioration et l'automatisation de nos process est un élément important dans l'optimisation de nos ressources et nous permet de rendre un meilleur service plus efficace et plus rapide à nos clients.
+
+* Implémentation de besoins métier: j'ai eu l'occasion de travailler à la fois sur la plate-forme supportant l'exécution des imports que sur les imports en eux même. Cette position m'a amené à communiquer avec les équipes techniques développant les imports mais aussi avec les personnes chargées des relations clients. Cette position m'a permis de me rendre compte que nos outils souffraient de certaines limitations pouvant être génante pour nos client, et j'ai pu participer à la correction de ces limitations (implémentation de nouvelles fonctionnalités, customisations de l'outil par client ...) sur l'ensemble de leur cycle de vie (expression du besoin, implémentation, déploiement, utilisation en production). Cela a donné une dimension très concrête à mon stage: un problème est constaté, on le résoud et on est témoin de sa disparition sur des cas réels. Cette dimension est très motivante.
+
+Beaucoup de ce qui a été accompli est trop technique ou demanderait plus d'information de contexte qu'il n'est possible d'en fournir ici, je ne l'évoquerai donc pas.
