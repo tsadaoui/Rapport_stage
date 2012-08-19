@@ -16,3 +16,4 @@ Rapport de stage
    stage
    imports
    plate_forme
+   conclusion
