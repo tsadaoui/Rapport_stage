@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Rapportdestage.tex', u'Rapport de stage Documentation',
+  ('index', 'Rapportdestage.tex', u'Rapport de stage',
    u'Tewfik SADAOUI', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'rapportdestage', u'Rapport de stage Documentation',
+    ('index', 'rapportdestage', u'Rapport de stage',
      [u'Tewfik SADAOUI'], 1)
 ]
 
@@ -227,7 +227,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Rapportdestage', u'Rapport de stage Documentation',
+  ('index', 'Rapportdestage', u'Rapport de stage',
    u'Tewfik SADAOUI', 'Rapportdestage', 'One line description of project.',
    'Miscellaneous'),
 ]
