@@ -40,8 +40,19 @@ Par exemple un utilisateur peut aller sur la page facebook d'une entreprise quel
 Autre application existante: quand un utilisateur est sur une page work4us, il peut voir une liste de jobs qui pourraient intéresser ses amis.
 
 
+Analytics
+---------
+
+Les analytics est un service dont l'intérêt est interne à Work4Labs. Il s'agit d'analyser les usages que les clients ont de nos services, d'étudier les données de nos services et d'en tirer des conclusions qui sont utilisable au niveau business.
+
 Imports
 -------
+
+Le service d'import est celui dans lequel j'ai fait mon stage. L'objectif de ce service et de servir de jonction entre le monde extérieur et les autres produits de Work4Labs. La plupart de nos clients ont déjà des systèmes en places pour gérer leurs recrutements (des ATS => outils les aidants à gérer les offres d'emplois et les candidatures), des sites carrières ou des job boards. Ces clients ne souhaite pas saisir manuellement des offres d'emplois pour profiter de nos services et nous demandent donc de nous intégrer à leurs systèmes pour y extraire les données que nous pourrions y exploiter.
+
+Concretement les clients nous exposent un web service, un flux XML, ou nous fournissent un lien vers leur site carrière. Notre service va ensuite développer un plugin pour s'interfacer avec le système du client si nécessaire, puis lancer un import qui extraira à intervalle régulier (typiquement une fois par jour) les jobs pour ensuite les adapter à notre système et les rendres exploitable par les autres services.
+
+Les imports servent de point d'entrée pour les données qui seront ensuite exploitées par toute l'entreprise, ce qui nous amène à inter-réagir avec tous les services, ainsi qu'avec les clients et leurs fournisseurs.
 
 Contexte du stage
 -----------------
