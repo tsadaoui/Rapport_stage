@@ -53,8 +53,3 @@ Le service d'import est celui dans lequel j'ai fait mon stage. L'objectif de ce 
 Concretement les clients nous exposent un web service, un flux XML, ou nous fournissent un lien vers leur site carrière. Notre service va ensuite développer un plugin pour s'interfacer avec le système du client si nécessaire, puis lancer un import qui extraira à intervalle régulier (typiquement une fois par jour) les jobs pour ensuite les adapter à notre système et les rendres exploitable par les autres services.
 
 Les imports servent de point d'entrée pour les données qui seront ensuite exploitées par toute l'entreprise, ce qui nous amène à inter-réagir avec tous les services, ainsi qu'avec les clients et leurs fournisseurs.
-
-Contexte du stage
------------------
-
-Outil de multiposting, mauvaises performances, projet cross-filiales

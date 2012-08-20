@@ -4,13 +4,24 @@ Vie de l'entreprise
 Une équipe internationale
 -------------------------
 
-Visites, communication à distance ...
+Le siège social de Work4Labs est basé à San Francisco, en Californie. La grande majorité des équipes commerciales, celles gérant la relation client et la plupart de nos clients sont là bas là bas également. Certains employés travaillent de New York, de Londre ou encore de Berlin (essentiellement des prospects commerciaux). Toutes ces raisons font que la dimension multiculturelle et internationale est très forte chez Work4Labs et cela ajoute à l'intérêt de travailler pour l'entreprise au quotidien.
+
+L'équipe import dont je fait partie en particulier, est amenée à travailler avec les clients et services associés et donc les échanges internationnaux font partis de notre quotidien. Nous avons des liens particulièrement étroit avec le service de relation client, avec lequel nous communicons par messagerie intantannée, et par mail en permanence, et assez régulièrement par Skype.
+
+De temps en temps il y a des échanges. Des collaborateurs habitant à Paris vont passer quelques semaines à San Francisco, et ceux de San Francisco viennent en France. Cela permet d'associer des visages à des personnes avec lesquels nous travaillons au quotidien sans les avoir jamais vu. Cela apport beaucoup à la dynamique de l'entreprise.
 
 
 Déménagement
 ------------
 
-A cause de la croissance
+Work4Labs et Multiposting partagent leurs bureaux à Paris. La croissance des deux entreprises est telle (en partie grâce aux levées de fond dont nous avons bénéficiés), que les équipes ne cessent de s'aggrandir, et la taille des bureaux doit croitre en fonction de celle de l'équipe.
+Depuis que j'ai commencé mon stage, en septembre, j'ai déjà assisté à deux déménagement, avec la logistique que cela impose.
+
+A chaque fois c'est l'occasion de faire le point sur la croissance de l'entreprise et de réaliser le chemin parcourru.
+
+Au début de mon stage les bureaux étaient rue d'Aumale dans le 9e arrondissement. Les équipes étant devenues trop nombreuses pour les bureaux d'Aumale, Work4Labs et Multiposting ont dû se séparer, Multiposting restant rue d'Aumale pendant que Work4Labs allait occuper des bureaux à république. Nous sommes restés dans ces bureaux quelques mois, puis les bureaux étaient à nouveau devenu trop petit et les deux entreprises se sont rassemblée dans un immeuble rue Moncey (9e).
+
+Nous occupons actuellement 3 étages de l'immeubles, et deux autres étages sont actuellement en travaux. Il est prévu de les occuper à partir de janvier. Selon les prévisions les équipes seront déjà devenues trop grandes pour nos seuls bureaux actuels. C'est une course incessante.
 
 
 L'équipe
