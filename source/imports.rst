@@ -29,6 +29,37 @@ Le déploiement consiste à configurer l'environnement de production pour prépa
 Gestion des incidents au quotidien
 ----------------------------------
 
+Les imports sont des points de liaisons entre nos systèmes et les systèmes des clients. Par nature, notre mission implique d'interagir avec des systèmes extérieur à l'entreprise, sur lesquels nous n'avons aucun contrôle.
 
-Management
-----------
+Nos clients sont les services des ressources humaines. La plupart du temps ces services sont distincts des services qui maintiennent les services d'information et la communication peut être dans certains cas malaisée voire inexistante. Les systèmes des clients peuvent donc être amené à évoluer indépendament de notre volonté sans que nous ne soyons mis au courrant. Toute modification du système des clients peut provoquer des erreurs sur nos imports, si le site est modifié d'une façon qui n'a pas été anticipée par le développeur (souvent cette anticipation est tout simplement impossible).
+
+Une des certitudes que nous avons en développant des imports c'est que notre code finira par échouer, qu'il y aura des erreurs, et qu'une partie d'entre elle n'aura pas été anticipée. Le système et nos imports sont donc construits dans cette optique: nous savons que notre code finira par échouer, nous ne savons pas quand, ni exactement comment mais nous voulons:
+
+1. limiter les dégats au maximum (interruption de service minimum, compartimentation des différentes fonctions ...)
+2. être tenu au courrant dès qu'une erreur survient avec assez de contexte et de détail pour cibler la source du problème
+3. être capable de résoudre le problème le plus rapidement possible et déployer le "fix" sans délai
+
+Pour respecter ces critères au maximum, nous mettons l'accent sur plusieurs vecteurs:
+
+* nous avons établi un ensemble de bonnes pratiques spécifiques au développement de nos imports sur lesquels nous sommes particulièrement vigileant au cours des code reviews. Ces pratiques sont issues de notre expérience et du temps passé à développer des imports très différents et à résoudre des problèmes divers et inattendus.
+* nous donnons une grande importance au monitoring de nos système au niveau infrastructure (fonctionnement des différents services, état du réseau, ...) et au niveau "métier" (modification du site du client, détection de données incohérentes ...)
+* nos workflow sont optimisés, simplifié, automatisé pour nous opposer le moins de friction possible et nous permettre d'être réactif et d'agir sans lourdeur
+* nous développons les imports en temps qu'équipe afin qu'aucun import ne soit compréhensible/accessible qu'a son créateur (respect de conventions de codage, documentation des information générales nécessaire à la mise en situation et des points particuliers/inhabituels, communication au sein de l'équipe ...). Tout le monde peut intervenir sur l'intégralité de la base de code. Il n'y a pas de notion d'exclusivité.
+
+Malgré nos efforts il arrive que des erreurs surviennent. Une partie du travail quotidien de l'équipe et d'investiguer ces erreurs et de les corriger. La correction de ces erreurs nécessite parfois des opérations en production, la difficulté est alors d'opérer de façon sure (ne pas perdre de donnée même en cas d'accident), avec une interruption de service la plus courte possible, et de façon à garder l'ensemble de nos données dans un état cohérent.
+
+
+Gestion de projet
+-----------------
+
+Une partie de mon travail consiste à participer à l'organisation de l'équipe import. La plupart du temps Ouadia s'occupe des imports relatifs au système de Multiposting et des problèmes nécessitant un processus long (intégration avec un ATS, besoin de documentation lourde, ou de fonctionnalités custom sur d'autres produits proposé par work4labs) et je me charge des imports relatifs à Job-pipe.
+
+Cette dimension a pris une importance particulière quand Ouadia est parti plusieurs semaines en vacances, je me suis alors occupé de la gestion de l'équipe import seul. Cela comprend:
+
+* la réception des tâches
+* la réponses aux questions qu'AM ou que les commerciaux peuvent avoir à propos d'une tâche donnée
+* la plannification des tâches en fonction des priorités exprimées par AM
+* la répartition des tâches en fonction de la charge de travail et des compétences de chacun
+* le suivi de l'avancement des tâches
+
+Cela demande demande beaucoup de communication avec AM (durant cette période je faisais des points avec AM d'une heure tous les jours) et avec les développeurs. Le suivi des status des tâches (à base de mails et de Jira) et la gestion des problèmes courrant (bloquage technique, besoin de plus d'information de la part du client ou d'un projet interne avec lequel on doit s'interfacer ...) consomme également beaucoup de temps.
