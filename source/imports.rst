@@ -26,6 +26,16 @@ Une fois l'import déployé sur le serveur de staging, la tâche est réassigné
 Le déploiement consiste à configurer l'environnement de production pour préparer chacun des composants du service (initialisation de la base de donnée, merge des branches de staging vers les branches de production, "pull" de la dernière version du code, redémarrage des services modifiés, scheduling des nouveaux imports, et lancement des imports). Il faut ensuite vérifier les pages finale avant de réassigner la tâche à AM qui procédera à l'installation finale de nos application sur la page facebook (activation de work4us sur la page facebook du client, lancement des campagnes de pub pour les jobs, etc ...). J'ai commencé à m'occuper des mises en production quelques semaines après le début de mon stage et cela fait encore partie de mes responsabilité actuellement.
 
 
+Un effort d'automatisation
+--------------------------
+
+La production des imports demande de réaliser des tâches qui peuvent être similaire d'un client à l'autre. Dans une optique d'optimisation de nos ressources (il s'agit de dégager du temps pour nous permettre de travailler sur d'autre projet) l'automatisation et l'accélération de tout ce qui peut l'être est donc un vecteur clé d'amélioration du service import. Par exemple nous nous efforçont d'écrire du code générique pour tous les principaux ATS du marché et ce qui nous permet de réutiliser des spider pré-écrites quand des clients utilisant ces ATS se présentent.
+
+Nous essayons également, quand c'est possible, de signer de partenariat avec les éditeurs des ATS afin de nous intégrer directement avec eux. Ces intégrations sont difficiles et longues à mettre en place, et leur concretisation est à la charge du service import. Il nous faut alors écrire beaucoup de documentation et communiquer énormément avec les équipes techniques de l'ATS ciblé.
+
+Quand c'est possible nous essayons également d'écrire des outils qui vont automatiser (générer automatiquement du code, effectuer des vérifications ...) nos tâches de programmation.
+
+
 Gestion des incidents au quotidien
 ----------------------------------
 
