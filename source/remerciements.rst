@@ -10,11 +10,11 @@ Merci à Léopold Boudard qui m'a mis le pied à l'étrier sur le projet Job-pip
 
 Merci à toute l'équipe import:
 
-* à Bilel
+* à Bilel pour ses trolls vim/emacs et pour sa fidélité au subway (qui force le respect)
 * à François pour avoir été ma "main droite", pour son déhanché au "zoukage" et pour ses leçons de maîtrise de "je te tiens par la barbichette"
-* à Isabel pour sa capacité à créer les "git problèmes" les plus improbables et les plus alambiqués et qui nous donnent l'opportunité de découvrir l'outil plus en profondeur à chaque fois (on finira bien par devenir des gourous!)
+* à Isabel pour sa capacité à créer les "git problèmes" les plus improbables et les plus alambiqués et qui nous donnent l'opportunité de découvrir l'outil plus en profondeur à chaque fois (on finira bien par devenir des gourous!) et pour démontrer (par l'exemple) à toute l'équipe que nos vies sentimentales ne sont pas aussi compliqués qu'elles pourraient l'être (on suit ta vie comme une série télé)
 * à Marouan, pour avoir subi mes codes reviews "comme à la préfecture"
-* à Pierre pour avoir été ma "main gauche" et pour les magnifiques couleurs qu'il a ajouté à nos outils (elles illuminent nos journées à chaque utilisation)
+* à Pierre pour avoir été ma "main gauche", pour les magnifiques couleurs qu'il a ajouté à nos outils (elles illuminent nos journées à chaque utilisation) et pour l'inspiration qu'il nous inspire à tous à chaque repas (c'est toujours impressionnant!)
 
 Ca a été un plaisir de travailler avec vous (ça l'est toujours!) et de voir l'équipe grandir.
 
