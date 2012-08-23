@@ -47,12 +47,54 @@ L'équipe a déjà grandi depuis (deux nouvelles personnes arrivées en aout et 
 Les outils
 ----------
 
+Facebook
+~~~~~~~~
+
 Le coeur de l'activité de Work4Labs est le recrutement sur les réseaux sociaux et **Facebook** en particulier. Nous utilisons beaucoup les API Facebook dans nos applications, et nous l'utilisons également pour tester les applications que nous développons.
+
+http://facebook.com
+
+
+Jira
+~~~~
 
 L'outil principal qui organise la vie des équipes technique est **Jira**. Jira gère les tâches, les plannings, il sert de bug tracker, de base documentaire, il permet à chaque équipe de tenir un blog détaillant l'avancé du projet, il nous permet de rédiger des documents (rapports, spécifications) collaborativement ... C'est vraiment l'outil central de référence utilisé par toutes les équipes techniques.
 
+Liste des tâches sur jira:
+
+.. image:: _static/jira_tasks_list.png
+
+Exemple de tâche:
+
+.. image:: _static/jira_task.png
+
+Vue représentat un sprint:
+
+.. image:: _static/jira_sprint.png
+
+Exemple de documentation hébergée sur jira:
+
+.. image:: _static/jira_confluence.png
+
+
+Github
+~~~~~~
+
 **Github** est la plate forme utilisée pour héberger nos dépots git (qui est un outil de gestion de version), de plus il nous sert de support pour les codes reviews (il offre des fonctionnalités pour commenter des parties du code et pour discuter autour d'aspects techniques).
 
+Vue permettant de visualiser les relations entre tous les developpement en cours.
+.. image:: _static/github_branch.png
+
+
+Testrails
+~~~~~~~~~
+
 **Testrails** est basiquement un outil de checklist qui nous sert de support dans la validation des tests de certains projet.
+
+.. image:: _static/testrails.png
+
+
+Asana
+~~~~~
 
 **Asana** est un outil de gestion de tâches. On peut considérer que c'est l'équivalent de Jira pour le personnel non-technique. Je l'ai utilisé essentiellement quand j'ai travaillé avec les ressources humaines (corrections des tests envoyés par les candidats stagiaires, planification des entretiens, discussion à propos des candidats ...).

@@ -9,7 +9,7 @@ Un système d'import a été développé il y a plusieurs années par Multiposti
 
 Ce système aura été une source d'inspiration (et sur certains aspects un exemple à ne pas suivre) tout au long du développement de job-pipe.
 
-
+.. image:: _static/multiposting.png
 
 Un projet cross-entreprises
 ---------------------------
@@ -63,7 +63,7 @@ Enfin nous utilisons beaucoup Celery_ qui nous permet d'une part de programmer f
 
 
 Les débuts du projet Job-pipe
-----------------------------
+----------=------------------
 
 Quand mon stage a débuté Job-pipe n'était pas utilisé en production. C'était plus une *proof of concept* qu'autre chose. Le premier objectif du projet a été d'obtenir un produit assez stable pour être utilisé en production et pour qu'on puisse lui faire confiance. Cela passe par une étape de détection de bugs et de correction de ceux ci, d'une manière générale, mais aussi de construire une couche de détection des erreurs qui surviennent. Ces erreurs doivent être détectées, stockées, et présentées aux personnes qu'elles concernent.
 Cette étape a été atteinte quelques semaines après le début de mon stage. Nous avons ensuite pu nous concentrer sur l'ajout de nouvelles fonctionnalités.

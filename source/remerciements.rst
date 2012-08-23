@@ -19,3 +19,6 @@ Merci à toute l'équipe import:
 Ca a été un plaisir de travailler avec vous (ça l'est toujours!) et de voir l'équipe grandir.
 
 J'aurais *beaucoup* d'autres personnes à remercier (je le ferai en face à face, sur demande!), mais je voudrais garder un peu de place pour la suite de mon rapport, donc je vais me contenter de remercier de manière générale l'ensemble de l'équipe de **Work4labs** ainsi que celle de **Multiposting**, qui m'ont toutes les deux très bien accueilli pendant ces 6 mois, avec lesquelles j'ai partagé le quotidien ainsi que les événements qui font leur spécificité (les dev drink, le déménagement, ...).
+
+
+.. image:: _static/office.jpg

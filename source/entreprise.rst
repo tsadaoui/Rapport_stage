@@ -18,6 +18,9 @@ Work4Us est l'application phare de Work4Labs, quasiment toutes les autres applic
 Le but de Work4Us est de permettre aux entreprises d'ajouter facilement des fonctionnalités de recrutement sur Facebook. Les clients peuvent ainsi poster des jobs sur Work4Us et ajouter l'application sur leur page Facebook d'entreprise. Les jobs seront ainsi visibles sur Facebook et pourront bénéficier de toutes les possibilités qui font la spécificité de Facebook (les offres peuvent être publiées sur la *time line* de l'entreprise, puis elles pourront être partagées par les utilisateurs ou être "likées", ...)
 
 
+.. image:: _static/work4us.png
+
+
 Jobs4me
 -------
 
@@ -28,6 +31,9 @@ Work4Ads
 --------
 
 Work4Ads est la plate-forme de publicité sur Facebook proposée par Work4Labs. Le but est de permettre aux clients de lancer des campagnes de pubs sur Facebook en ciblant les candidats le plus précisément possible. Par exemple, admettons qu'un client recherche un ingénieur en informatique à Paris. Work4Ads va lancer une campagne de pub en ciblant les profils sortant d'une école d'ingénieur qui possède une branche informatique, ou ayant occupé un poste similaire localisé dans les envirrons de Paris. La publicité sera générée automatiquement à partir de la description du job, et diffusée auprès de tous les utilisateurs de Facebook correspondants aux critères.
+
+
+.. image:: _static/work4ads.png
 
 
 ERP - Engines
